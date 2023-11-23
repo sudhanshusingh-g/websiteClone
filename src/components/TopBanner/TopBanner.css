@@ -11,6 +11,11 @@
 h1 span{
     color: #FFDA49;
 }
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 .courseTabs{
     display: flex;
     justify-content: flex-start;
@@ -25,18 +30,22 @@ h1 span{
     color: #FF693D;
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
-    font-weight: 500;
+    font-weight: 400;
 }
 .actionBtn{
     display: flex;
     align-items: center;
+    gap: 1rem;
+    padding-bottom: 1.5rem;
 }
 .connectBtn{
     display: flex;
     align-items: center;
     background: #01202B;
     border-radius: 8px;
-    
+    gap: 0.4rem;
+    padding: 0 1.8rem;
+    cursor: pointer;
 }
 .cta{
     display: flex;
@@ -44,4 +53,17 @@ h1 span{
     background: #fff;
     color: #FF693D;
     border-radius: 8px;
+    gap: 0.4rem;
+    padding: 0 1.8rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.thumbnail img{
+    background:  #000;
+    border-radius: 8px;
+}
+.thumbnail p{
+    margin: 0;
+    font-size: 14px;
 }
