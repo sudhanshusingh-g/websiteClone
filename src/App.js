@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+import CitiesSection from './components/CitiesSection/CitiesSection';
+import { Navbar } from './components/Navbar/Navbar';
+import ParentBanner from './components/ParentBanner/ParentBanner';
+import ResultSection from './components/ResultSection/ResultSection';
+import SatBanner from './components/SatBanner/SatBanner';
+import ServicesSection from './components/ServicesSection/ServicesSection';
+import TopBanner from './components/TopBanner/TopBanner';
+import VisitSection from './components/VisitSection/VisitSection';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar/>
+      <TopBanner/>
+      <CitiesSection/>
+      <ServicesSection/>
+      <SatBanner/>
+      <ParentBanner/>
+      <ResultSection/>
+      <VisitSection/>
     </div>
   );
 }

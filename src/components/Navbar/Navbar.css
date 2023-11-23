@@ -1,0 +1,93 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #F0F0F0;
+    background: #FFF;
+    gap: 2rem;
+    padding: 0.8rem;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+    color: #01202B;
+    letter-spacing: 0.2px;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.nav-menu li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.nav-menu .active{
+    color: #FF693D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem 1.2rem;
+    border-radius: 4px;
+    border: 1px solid #FF693D;
+}
+.contact-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+.contact-menu img{
+    border-radius: 18px;
+    background: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8.61px 10px 11.39px 10px;
+    cursor: pointer;
+}
+.contact-menu p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0;
+    
+}
+.smallFont{
+    color: #51626A;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: 15.6px; /* 130% */
+}
+.smallFont+p{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px; /* 150% */
+}
+.btn{
+    display: flex;
+    padding: 11px 35.762px 12px 36.08px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #ECEAEA;
+    background: #FFF;
+    cursor: pointer;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 233.333% */
+    letter-spacing: 0.2px;
+}

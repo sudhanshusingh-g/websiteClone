@@ -1,0 +1,47 @@
+.background{
+    border-radius: 0.5rem;
+    background: #FF693D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 50px 100px 0px 100px;
+    gap: 17px;
+}
+h1 span{
+    color: #FFDA49;
+}
+.courseTabs{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.8rem;
+}
+.courseTabs span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #FF693D;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.actionBtn{
+    display: flex;
+    align-items: center;
+}
+.connectBtn{
+    display: flex;
+    align-items: center;
+    background: #01202B;
+    border-radius: 8px;
+    
+}
+.cta{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    color: #FF693D;
+    border-radius: 8px;
+}
