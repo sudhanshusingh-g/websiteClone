@@ -1,0 +1,16 @@
+.callBack{
+    border-radius: 8px;
+    background: #FF693D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 8px 77.194px 9px 77.48px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 137.5% */
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}

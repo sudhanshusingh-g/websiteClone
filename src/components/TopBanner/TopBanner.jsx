@@ -8,7 +8,7 @@ function TopBanner() {
     <div className="background">
       <div className="content">
         <h1>
-          India's <span>Top Teachers</span>
+          India's <span className="accent">Top Teachers</span>
           <br />
           Now in Your City
         </h1>

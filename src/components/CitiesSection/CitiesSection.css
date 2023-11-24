@@ -1,0 +1,48 @@
+
+.section{
+    margin: 0 8rem;
+}
+.citiesSection{
+    padding-bottom: 1rem;
+}
+.citiesHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.primary{
+    color: #FF693D;
+}
+.citiesHead p{
+    cursor: pointer;
+}
+.rightArrow{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    transform: rotate(-43deg);
+    flex-shrink: 0;
+    border-right: 2px solid #FF693D;
+    border-bottom: 2px solid #FF693D;
+}
+
+.citiesContainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 4rem 2rem;
+    
+}
+.cityElement p{
+    color: #000;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    font-size: 12px;
+}
+.btnCont{
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

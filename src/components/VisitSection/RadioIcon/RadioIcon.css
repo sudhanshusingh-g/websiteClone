@@ -1,0 +1,15 @@
+.outer{
+    background:#FADCD3;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    background: #FF693D;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+}

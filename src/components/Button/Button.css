@@ -1,0 +1,14 @@
+.primaryBtn{
+    border-radius: 8px;
+    border-bottom: 1px solid #FF693D;
+    background: #FF693D;
+    border: none;
+    padding: 10px 19.61px 12px 20px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

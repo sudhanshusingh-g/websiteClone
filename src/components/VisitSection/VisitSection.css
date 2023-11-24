@@ -1,0 +1,49 @@
+.background4{
+    background:  #F0F0F0;
+}
+.visitSection{
+    background: #EFEFEF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+.points{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.form{
+    background: #fff;
+    width: 24rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+input{
+    display: block;
+    padding:11px 16px;
+    border-radius: 8px;
+    border: 1px solid #DEE0E1;
+    background: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 80%;
+}
+.option::placeholder{
+    color: #000;
+}
+.option{
+    background: #DEE0E1;
+    cursor: pointer;
+}

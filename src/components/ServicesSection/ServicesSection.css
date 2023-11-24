@@ -1,0 +1,27 @@
+.background2{
+    background: #FFF0E9;
+    padding: 2rem 0;
+}
+
+.teacherBanner{
+    background: #ff693d;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 5rem;
+}
+.content h1,p{
+    margin: -0.5rem;
+}
+hr{
+    border: 1px dashed #FF693D;
+}
