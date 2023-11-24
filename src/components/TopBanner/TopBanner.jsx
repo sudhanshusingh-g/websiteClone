@@ -1,8 +1,10 @@
 import React from "react";
 import "./TopBanner.css";
+import ButtonSecondary from '../Button/ButtonSecondary'
 import icon from "../assets/WAIcon.svg.svg";
 import heroImage from "../assets/heroImage.png";
 import thumbnail from "../assets/videoImage.png";
+import ButtonTertiary from "../Button/ButtonTertiary";
 function TopBanner() {
   return (
     <div className="background">
@@ -20,13 +22,13 @@ function TopBanner() {
           </span>
         </div>
         <div className="actionBtn">
-          <div className="connectBtn">
-            <img src={icon} alt="Whatsapp-Icon" />
-            <p>Connect with us</p>
-          </div>
-          <div className="cta">
-            <p>Get a call back</p>
-          </div>
+          <ButtonSecondary>
+            <img src={icon} alt="" />
+            Connect with us
+          </ButtonSecondary>
+          <ButtonTertiary>
+          Get a call back
+          </ButtonTertiary>
         </div>
       </div>
       <div className="heroImg">

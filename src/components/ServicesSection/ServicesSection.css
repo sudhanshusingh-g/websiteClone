@@ -24,4 +24,8 @@
 }
 hr{
     border: 1px dashed #FF693D;
+    margin: 4rem 0;
+}
+.lightWeight{
+    font-weight: 500;
 }

@@ -1,9 +1,10 @@
 import React from "react";
 import "./ServicesSection.css";
 import teachers from "../assets/teachers.png";
-import Card from "../Cards/Card";
+import Card from "../Card/Card";
 import icon from "../assets/download.svg";
 import ButtonSecondary from "../Button/ButtonSecondary";
+import OfferCard from "../Card/OfferCard";
 function ServicesSection() {
   return (
     <div className="background2">
@@ -27,10 +28,7 @@ function ServicesSection() {
           </div>
         </div>
         
-        <div className="cardContainer">
-          <Card />
-          <Card />
-          <Card />
+        <div>
           <Card />
         </div>
         <hr />
@@ -40,9 +38,8 @@ function ServicesSection() {
           <br />
           classrooms
         </h1>
-        <div className="cardContainer">
-          <Card />
-          <Card />
+        <div>
+          <OfferCard/>
         </div>
       </div>
     </div>

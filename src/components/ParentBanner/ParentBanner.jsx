@@ -1,7 +1,7 @@
 import React from "react";
 import "./ParentBanner.css";
 import parentImg from '../assets/parentHero.png';
-import Features from "./Features/Features";
+import Features from "../Card/ParentCard";
 function ParentBanner() {
   return (
     <div className="background3">
@@ -12,10 +12,7 @@ function ParentBanner() {
             <br />
             what you need
           </h1>
-          <div className="parentNeeds">
-            <Features/>
-            <Features/>
-            <Features/>
+          <div>
             <Features/>
           </div>
         </div>

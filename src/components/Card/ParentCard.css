@@ -1,0 +1,6 @@
+.pointContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:  1.5rem 6rem;
+    padding: 2rem 0;
+}

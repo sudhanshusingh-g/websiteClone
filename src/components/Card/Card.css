@@ -1,0 +1,6 @@
+.cardContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    padding: 1rem 0;
+}
